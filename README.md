@@ -4,19 +4,18 @@
 FraudShield-ML is an AI-powered fraud detection system that analyses financial transactions using machine learning, providing real-time fraud risk assessment via predictive modelling and a Streamlit dashboard.
 
 ## 📌 Table of Contents  
-- [Dataset Overview](#dataset-overview)  
-- [Dataset Source](#dataset-source)  
-- [Dataset Structure](#dataset-structure)  
-- [Key Objectives](#key-objectives)  
-- [Technology Stack](#technology-stack)   
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
-- [User Insights](#user-insights-top-10-lists)  
-- [Fraud Distribution & Correlation Analysis](#fraud-distribution--correlation-analysis)  
-- [Machine Learning Model](#machine-learning-model)  
-- [Streamlit Dashboard](#streamlit-dashboard-fraudshield)  
-- [How to Use](#how-to-use)  
-- [Contact](#contact)  
-- [Final Thoughts](#final-thoughts)
+- [Dataset Overview](#📌-dataset-overview)  
+- [Dataset Source](#🗂-dataset-source)   
+- [Key Objectives](#🎯-key-objectives)  
+- [Technology Stack](#🛠-technology-stack)   
+- [Exploratory Data Analysis (EDA)](#📊-exploratory-data-analysis-eda)  
+- [User Insights](#📊-user-insights)  
+- [Fraud Distribution & Correlation Analysis](#🔎-fraud-distribution--correlation-analysis)  
+- [Machine Learning Model](#⚙️-machine-learning-model)  
+- [Streamlit Dashboard](#🖥️-streamlit-dashboard-fraudshield)  
+- [How to Use](#🔎-how-to-use)  
+- [Contact](#📬-contact)  
+- [Final Thoughts](#🚀-final-thoughts)
 
 ## 📌 Dataset Overview  
 This dataset presents a **synthetic representation of mobile money transactions**, designed to replicate real-world financial behaviors while incorporating fraudulent patterns for research purposes.  
@@ -24,6 +23,11 @@ This dataset presents a **synthetic representation of mobile money transactions*
 ## 🗂 Dataset Source  
 The dataset used in this project comes from **Kaggle's Financial Fraud Detection Dataset**:  
 🔗 [Financial Fraud Detection Dataset](https://www.kaggle.com/datasets/sriharshaeedala/financial-fraud-detection-dataset)  
+
+### 🗂 Google Drive Access  
+The dataset used in this project is hosted on Google Drive due to file size limitations on GitHub.  
+
+🔗 [Download Fraud Detection Dataset](https://drive.google.com/drive/folders/1EGWfy0c0_-gv2hdq2ZWMuGXbYDggzXtd?usp=drive_link) 
 
 ### 📊 Dataset Structure  
 | Column          | Description |
@@ -38,7 +42,7 @@ The dataset used in this project comes from **Kaggle's Financial Fraud Detection
 | `oldbalanceDest` | Initial recipient's balance (**not applicable for merchants**). |
 | `newbalanceDest` | Recipient's balance after transaction (**not applicable for merchants**). |
 | `isFraud`     | **Identifies fraudulent transactions** targeting customer accounts. |
-| `isFlaggedFraud` | Flags unauthorized transactions exceeding **200,000 currency units**. |
+| `isFlaggedFraud` | Flags unauthorised transactions exceeding **200,000 currency units**. |
 
 ## 🎯 Key Objectives  
 - **Transaction Monitoring** – Analyse transaction patterns for fraud detection.  
@@ -76,18 +80,13 @@ This project investigates various transaction behaviors to detect fraud patterns
 - 📌 **Fraud Trends Over Time** – Detecting fraud occurrence per step intervals.  
 
 ## 📊 User Insights    
-### 🔹 **Top 10 Most Active Senders**  
-Users with the highest number of outgoing transactions, potentially large financial movers.  
-### 🔹 **Top 10 Most Active Receivers**  
-Accounts receiving frequent transactions, which may indicate high transaction volume entities.  
-### 🔹 **Top 10 Fraudulent Users**  
-Senders associated with multiple fraudulent transactions, potentially linked to fraud rings.  
+- 📌 **Top 10 Most Active Senders** - Users with the highest number of outgoing transactions, potentially large financial movers.  
+- 📌 **Top 10 Most Active Receivers** - Accounts receiving frequent transactions, which may indicate high transaction volume entities.  
+- 📌 **Top 10 Fraudulent Users** - Senders associated with multiple fraudulent transactions, potentially linked to fraud rings.  
 
 ## 🔎 Fraud Distribution & Correlation Analysis  
-### 🔹 **Fraud Distribution in Transaction Types**  
-Fraudulent transactions are concentrated in **TRANSFER and CASH_OUT**, suggesting that these payment types are more vulnerable to fraudulent activities.  
-### 🔹 **Correlation Analysis**  
-A heatmap analysis reveals strong correlations between transaction **amount, balance changes, and fraud occurrence**:  
+- 📌 **Fraud Distribution in Transaction Types** - Fraudulent transactions are concentrated in **TRANSFER and CASH_OUT**, suggesting that these payment types are more vulnerable to fraudulent activities.  
+- 📌 **Correlation Analysis** - A heatmap analysis reveals strong correlations between transaction **amount, balance changes, and fraud occurrence**:  
 
 ## ⚙️ Machine Learning Model  
 The fraud detection model is trained using **Logistic Regression**, incorporating:  
@@ -125,9 +124,9 @@ jupyter notebook fraud_detection_analysis_model.ipynb
 streamlit run app.py
 ```
 ### 4️⃣ **Use the Dashboard**  
-- Enter transaction details 📋  
-- Click **'Predict Fraud Risk'**  
-- Get an instant fraud assessment 🚀
+- Enter transaction details.  
+- Click **'Predict Fraud Risk'**.  
+- Get an instant fraud assessment.
 
 ## 📬 Contact  
 For questions, contributions, or collaboration:  
