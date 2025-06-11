@@ -4,18 +4,18 @@
 FraudShield-ML is an AI-powered fraud detection system that analyses financial transactions using machine learning, providing real-time fraud risk assessment via predictive modelling and a Streamlit dashboard.
 
 ## 📌 Table of Contents  
-- [Dataset Overview](#📌-dataset-overview)  
-- [Dataset Source](#🗂-dataset-source)   
-- [Key Objectives](#🎯-key-objectives)  
-- [Technology Stack](#🛠-technology-stack)   
-- [Exploratory Data Analysis (EDA)](#📊-exploratory-data-analysis-eda)  
-- [User Insights](#📊-user-insights)  
-- [Fraud Distribution & Correlation Analysis](#🔎-fraud-distribution--correlation-analysis)  
-- [Machine Learning Model](#⚙️-machine-learning-model)  
-- [Streamlit Dashboard](#🖥️-streamlit-dashboard-fraudshield)  
-- [How to Use](#🔎-how-to-use)  
-- [Contact](#📬-contact)  
-- [Final Thoughts](#🚀-final-thoughts)
+1- [Dataset Overview](#📌-dataset-overview)  
+2- [Dataset Source](#🗂-dataset-source)   
+3- [Key Objectives](#🎯-key-objectives)  
+4- [Technology Stack](#🛠-technology-stack)   
+5- [Exploratory Data Analysis (EDA)](#📊-exploratory-data-analysis-eda)  
+6- [User Insights](#📊-user-insights)  
+7- [Fraud Distribution & Correlation Analysis](#🔎-fraud-distribution--correlation-analysis)  
+8- [Machine Learning Model](#⚙️-machine-learning-model)  
+9- [Streamlit Dashboard](#🖥️-streamlit-dashboard-fraudshield)  
+10- [How to Use](#🔎-how-to-use)  
+11- [Contact](#📬-contact)  
+12- [Final Thoughts](#🚀-final-thoughts)
 
 ## 📌 Dataset Overview  
 This dataset presents a **synthetic representation of mobile money transactions**, designed to replicate real-world financial behaviors while incorporating fraudulent patterns for research purposes.  
